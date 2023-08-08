@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: #dfdfdf;
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+body{
+    padding-top: 5rem;
+}
+
+:root{
+    --div-color3: #0860be;
+    --div-color4: rgb(58, 121, 189);
+
+    --div-font-family-lisu: 'Lisu Bosa', serif;
+    --div-font-family-lato: 'Lato', sans-serif;
+    --div-font-family-roboto: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 30px;
+    font-family: var(--div-font-family-lisu);
+    color: var(--div-color3);
+
+}
+
+h2{
+    font-family: var(--div-font-family-lato);
+    color: #fff;
+    font-size: 45px;
+}
+
+h3{
+    font-family: var(--div-font-family-roboto);
+    font-size: 17px;
+    font-weight: 500 !important;
+    color: var(--div-color3);
+}
+
+h4{
+    font-family: var(--div-font-family-lato);
+    line-height: 29px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    line-height: 29px;
+    color: #fff;
+}
+
+
+article{
+    height: 100vh;
+    position: relative;
+}
